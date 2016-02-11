@@ -1,3 +1,51 @@
 body {
+  background-color: peachpuff;
+}
+
+h1 {
+  width: 90%;
+  margin-right: auto;
+  margin-bottom: auto;
+  color: #0000FF;
+  font-family: "Arial", sans-serif;
+  font-size: 72px;
+  text-align: center;
+  /* background-color: rgb(128, 128, 128); */
+}
+
+img,
+p {
+  width: 50%;
+  max-width: 700px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+img {
+  height: auto;
+  display: block;
+}
+
+p {
+  margin-top: 2em;
+  font-family: "Arial", sans-serif;
+}
+
+a {
+  margin: 2em auto 4em auto;
+  display: table;
+  color: white;
+  font-family: "Arial", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.5em;
+  background-color: black;
+}
+
+a:hover {
+  background-color: darkred;
+}
+
+a:active {
   background-color: red;
 }
